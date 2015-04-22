@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/ns/csvw#", 
+    "dc": "http://purl.org/dc/terms/", 
+    "dcat": "http://www.w3.org/ns/dcat#"
+  }, 
+  "@type": "Table", 
+  "dc:creator": "Dan Bricklin", 
+  "dc:title": "My Spreadsheet", 
+  "dcat:distribution": {
+    "dcat:downloadURL": "data.csv"
+  }, 
+  "dc:modified": "2014-05-09T15:44:58Z", 
+  "dc:publisher": "My Books", 
+  "tableSchema": {
+    "aboutUrl": "http://librarything.com/isbn/{isbn}",
+    "primaryKey": "isbn",
+    "columns": [
+      {
+        "datatype": "string",
+        "unique": true,
+        "name": "isbn"
+      {
+        "datatype": "string", 
+        "name": "title", 
+        "propertyUrl": "http://purl.org/dc/terms/title"
+      },
+      {
+        "datatype": "string",
+        "name": "author",
+        "propertyUrl": "http://purl.org/dc/terms/creator"
+      }
+    ]
+  }
+}
