@@ -20,6 +20,7 @@
         "datatype": "string",
         "unique": true,
         "name": "isbn"
+      },
       {
         "datatype": "string", 
         "name": "title", 
