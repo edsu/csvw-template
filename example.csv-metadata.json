@@ -22,13 +22,13 @@
       },
       {
         "name": "title", 
-        "titles": "Book Title",
+        "title": "Book Title",
         "datatype": "string", 
         "propertyUrl": "http://purl.org/dc/terms/title"
       },
       {
         "name": "author",
-        "titles": "Book Author",
+        "title": "Book Author",
         "datatype": "string",
         "propertyUrl": "http://purl.org/dc/terms/creator"
       }
